@@ -1600,7 +1600,7 @@ body {
 .button-list:hover {
     border: 2px solid #83B3D3;
     box-shadow: none;
-}
+} 
 
 .button-list:focus {
     border: none;
