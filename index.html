@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Седона</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <link rel="stylesheet" href="style/styles.css">
 </head>
 
@@ -11,52 +12,54 @@
   <div class="main-div">
     <header class="main-header">
       <nav class="navigation">
-        <a class="navigation-link-logo" href="https://htmlacademy.ru/">
-          <img class="navigation-logo" src="images/index/logo.svg" width="140" height="73" alt="Логотип">
+        <a class="navigation-link-logo" href="index.html">
+          <img class="navigation-logo" src="images/index/logo.svg" width="140" height="73" alt="Логотип.">
         </a>
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link navigation-link-main navigation-active" href="#">Главная</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link navigation-link-main" href="#">О Седоне</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link navigation-link-main" href="сatalog.html">Гостиницы</a>
-          </li>
-        </ul>
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
-              <svg class="navigation-ikon" aria-hidden="true" focusable="false" width="19" height="19"
-                viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="m18.682 16.911-3.7-3.7c1-1.3 1.7-3 1.7-4.9 0-4.4-3.6-8-8-8s-8 3.7-8 8.1c0 4.4 3.6 8 8 8 1.8 0 3.5-.6 4.9-1.7l3.7 3.7 1.4-1.5Zm-10-2.5c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6Z" />
-              </svg>
-              <span class="visually-hidden">Поиск</span>
-            </a>
-          </li>
-          <li class="navigation-item-user">
-            <a class="navigation-link" href="#">
-              <svg class="navigation-ikon" aria-hidden="true" focusable="false" width="19" height="18"
-                viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M9.582 17.411c-.3 0-.6-.1-.8-.4-5.4-6.1-6.7-7.5-7-7.9-.7-.9-1.1-2.1-1.1-3.3 0-3 2.4-5.4 5.5-5.4 1.3 0 2.5.5 3.5 1.3 1-.8 2.3-1.3 3.5-1.3 3 0 5.5 2.4 5.5 5.4 0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z">
-              </svg>
-              <span class="visually-hidden">Нравится </span>
-              <span class="top-index">12</span>
-            </a>
-          </li>
-        </ul>
-        <a class="button button-brown navigation-button" href="#"> Хочу сюда!
-        </a>
+        <div class="navigation-interactive">
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a class="navigation-link navigation-link-main navigation-active" href="#">Главная</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link navigation-link-main" href="#">О Седоне</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link navigation-link-main" href="сatalog.html">Гостиницы</a>
+            </li>
+          </ul>
+          <ul class="navigation-list navigation-user">
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">
+                <svg class="navigation-ikon" aria-hidden="true" focusable="false" width="19" height="19"
+                  viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m18.682 16.911-3.7-3.7c1-1.3 1.7-3 1.7-4.9 0-4.4-3.6-8-8-8s-8 3.7-8 8.1c0 4.4 3.6 8 8 8 1.8 0 3.5-.6 4.9-1.7l3.7 3.7 1.4-1.5Zm-10-2.5c-3.3 0-6-2.7-6-6s2.7-6 6-6 6 2.7 6 6-2.7 6-6 6Z" />
+                </svg>
+                <span class="visually-hidden">Поиск.</span>
+              </a>
+            </li>
+            <li class="navigation-item-user">
+              <a class="navigation-link" href="#">
+                <svg class="navigation-ikon" aria-hidden="true" focusable="false" width="19" height="18"
+                  viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9.582 17.411c-.3 0-.6-.1-.8-.4-5.4-6.1-6.7-7.5-7-7.9-.7-.9-1.1-2.1-1.1-3.3 0-3 2.4-5.4 5.5-5.4 1.3 0 2.5.5 3.5 1.3 1-.8 2.3-1.3 3.5-1.3 3 0 5.5 2.4 5.5 5.4 0 1.3-.5 2.5-1.3 3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5c.3.4 3.5 4 6.1 6.9l6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4-.7-.8-1.7-1.3-2.7-1.3-1.8 0-3.3 1.5-3.3 3.3-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z">
+                </svg>
+                <span class="visually-hidden">Нравится.</span>
+                <span class="top-index">12</span>
+              </a>
+            </li>
+          </ul>
+          <a class="button button-brown navigation-button" href="#"> Хочу сюда!
+          </a>
+        </div>
       </nav>
     </header>
     <main class="main-container main-index">
       <div class="page-container">
-        <h1 class="main-img visually-hidden"> Седона </h1>
+        <h1 class="main-img visually-hidden"> Седона. </h1>
         <div class="sedona-hidder">
-          <img class="welcome-img" src="images/index/welcome.svg" width="458" height="352" alt="Логотип Седоны">
+          <img class="welcome-img" src="images/index/welcome.svg" width="458" height="352" alt="Логотип Седоны.">
         </div>
         <section class="advantages">
           <div class="advantages-sedona">
@@ -76,7 +79,7 @@
                 </div>
               </div>
               <img class="advantages-img-one-city" src="images/index/photo-1.jpg" width="800" height="384"
-                alt="Фото Кафе в Седоне">
+                alt="Фото Кафе в Седоне.">
             </li>
             <li class="advantages-item">
               <div class="advantages-center">
@@ -118,7 +121,7 @@
             </li>
             <li class="advantages-item white-item advantages-picture">
               <img class="advantages-img-two-bridge" src="images/index/photo-2.jpg" width="800" height="384"
-                alt="Фото каньона">
+                alt="Фото каньона.">
               <div class="advantages-no-img-two">
                 <div class="advantages-center ">
                   <h3 class="advantages-title advantages-title-page white-title">Там есть
@@ -135,21 +138,24 @@
                 <h3 class="advantages-title advantages-title-page">Небольшая
                   площадь</h3>
                 <p class="advanteges-number">— №3 —</p>
-                <p class="advanteges-description bottom-description">Все достопримечательности<br>находятся очень близко</p>
+                <p class="advanteges-description bottom-description">Все достопримечательности<br>находятся очень близко
+                </p>
               </div>
             </li>
             <li class="advantages-item">
               <div class="advantages-center">
                 <h3 class="advantages-title advantages-title-page">Красивая<br>дорога</h3>
                 <p class="advanteges-number">— №4 —</p>
-                <p class="advanteges-description bottom-description">Ехать в Седону из Лас-Вегаса<br>совсем не скучно!</p>
+                <p class="advanteges-description bottom-description">Ехать в Седону из Лас-Вегаса<br>совсем не скучно!
+                </p>
               </div>
             </li>
             <li class="advantages-item">
               <div class="advantages-center">
                 <h3 class="advantages-title advantages-title-page">Мало<br>туристов</h3>
                 <p class="advanteges-number">— №5 —</p>
-                <p class="advanteges-description bottom-description">Большинство едет в Гранд<br>Каньон и толпится там</p>
+                <p class="advanteges-description bottom-description">Большинство едет в Гранд<br>Каньон и толпится там
+                </p>
               </div>
             </li>
           </ul>
@@ -166,7 +172,7 @@
           <p class="subscription-text"> Только полезная информация и никакого спама,<br>
             честное бойскаутское! </p>
           <form class="subscription-email-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="newsletter-email" class="visually-hidden">Email</label>
+            <label for="newsletter-email" class="visually-hidden">Email.</label>
             <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
               required>
             <button class="button button-blue button-newsletter-email" type="submit">Подписаться</button>
@@ -185,7 +191,7 @@
                   <path
                     d="M11.6.2c1.8-.5 3.2.3 3.8 1.2.7-.2 1.4-.5 2.1-.7 0 .9-.6 1.5-.9 1.8.7.1 1.4-.6 1.4-.6-.2 1-1.1 1.8-1.7 2C16.1 10.7 13 15.1 5.7 15h-.5c-.4 0-4.4-.5-5.2-1.9 2.4.2 4.1-.4 5-1.2-1-.3-2.9-.4-3.2-2.9.4.1.6.2 1.3.1C1.8 8.3.4 7.5.5 5.3c.3.3 1.1.5 1.4.5C1.1 5.6-.2 2.5.9.9c1.9 1.9 4 3.6 7.6 3.8C8.7 2.3 9.7.8 11.6.2Z" />
                 </svg>
-                <span class="visually-hidden"> Твиттер</span>
+                <span class="visually-hidden"> Твиттер.</span>
               </a>
             </li>
             <li class="footer-social-item">
@@ -194,7 +200,7 @@
                   fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 0C4.8 0 3 1.8 3 4v2H0v4h3v8h4v-8h3V6H7V4h3V0H7Z" />
                 </svg>
-                <span class="visually-hidden"> Фейсбук</span>
+                <span class="visually-hidden"> Фейсбук.</span>
               </a>
             </li>
             <li class="footer-social-item">
@@ -204,7 +210,7 @@
                   <path
                     d="M17 0H2.9C1.2 0 0 1.5 0 3.2v9.5C0 14.5 1.2 16 2.9 16h14.3c1.5 0 2.9-1.5 2.9-3.2V3.2C19.9 1.5 18.7 0 17 0ZM7 11.8V4.2L13.7 8 7 11.8Z" />
                 </svg>
-                <span class="visually-hidden"> Ютуб</span>
+                <span class="visually-hidden"> Ютуб.</span>
               </a>
             </li>
           </ul>
@@ -231,48 +237,35 @@
             <path
               d="M13 1.2 11.8 0 6.5 5.3 1.2 0 0 1.2l5.3 5.3L0 11.8 1.2 13l5.3-5.3 5.3 5.3 1.2-1.2-5.3-5.3L13 1.2Z" />
           </svg>
-          <span class="visually-hidden">Закрыть</span>
+          <span class="visually-hidden">Закрыть.</span>
         </button>
         <section class="modal-content">
           <h2 class="modal-title"> Поиск гостиницы в Седоне</h2>
           <form class="auth-form" action="https://htmlacademy.ru/" method="post">
-            <div class="modal-item">
+            <div class="modal-item search-form-modal">
               <label class="travel-modal">Дата заезда:</label>
               <div class="wrapper">
-                <input class="modal-input travel-input travel-start" type="text" name="trip-start"
-                  placeholder="27 апреля 2020">
-                <svg class="calendar" aria-hidden="true" focusable="false" width="16" height="15" viewBox="0 0 16 15"
-                  fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.75 10c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Z" fill="#000" />
-                  <path
-                    d="M15 2h-2V0h-1v2H4V0H3v2H1c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h14c.5 0 1-.5 1-1V3c0-.6-.5-1-1-1Zm0 12H1V7h14v7ZM1 6V3h2v2h1V3h8v2h1V3h2v3H1Z"
-                    fill="#000" />
-                  <path
-                    d="M8 10c.3 0 .5-.2.5-.5S8.3 9 8 9s-.5.2-.5.5.2.5.5.5Zm2.25 0c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Zm-4.5 1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM3.5 10c.3 0 .5-.2.5-.5S3.8 9 3.5 9s-.5.2-.5.5.2.5.5.5Zm0 1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM8 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Zm2.25 0c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Zm2.25-1c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Zm0 1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Z">
-                </svg>
-                <span class="text-modal text-error"> Мы не можем отправить вас в прошлое. </span>
-                <span class="text-modal text-successfully"> На эти даты есть свободные номера. Пока есть. </span>
+                <input class="modal-input travel-input" type="text" name="trip-start" placeholder="27 апреля 2020">
+                <button class="search-calendar" type="button">
+                  <span class="visually-hidden">Календарь.</span>
+                </button>
               </div>
             </div>
-            <div class="modal-item">
+            <span class="text-modal text-error"> Мы не можем отправить вас в прошлое. </span>
+            <span class="text-modal text-successfully"> На эти даты есть свободные номера. Пока есть. </span>
+            <div class="modal-item search-form-modal">
               <label class="travel-modal">Дата выезда:</label>
               <div class="wrapper">
                 <input class="modal-input travel-input travel-finish" type="text" name="trip-finish"
                   placeholder="1 сентября 2021">
-                <svg class="calendar" aria-hidden="true" focusable="false" width="16" height="15" viewBox="0 0 16 15"
-                  fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5.75 10c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Z" fill="#000" />
-                  <path
-                    d="M15 2h-2V0h-1v2H4V0H3v2H1c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h14c.5 0 1-.5 1-1V3c0-.6-.5-1-1-1Zm0 12H1V7h14v7ZM1 6V3h2v2h1V3h8v2h1V3h2v3H1Z"
-                    fill="#000" />
-                  <path
-                    d="M8 10c.3 0 .5-.2.5-.5S8.3 9 8 9s-.5.2-.5.5.2.5.5.5Zm2.25 0c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Zm-4.5 1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM3.5 10c.3 0 .5-.2.5-.5S3.8 9 3.5 9s-.5.2-.5.5.2.5.5.5Zm0 1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM8 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Zm2.25 0c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Zm2.25-1c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Zm0 1c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Z">
-                </svg>
-                <span class="text-modal text-error"> Мы не можем отправить вас в прошлое. </span>
-                <span class="text-modal text-successfully"> На эти даты есть свободные номера. Пока есть. </span>
+                <button class="search-calendar" type="button">
+                  <span class="visually-hidden">Календарь.</span>
+                </button>
               </div>
             </div>
-            <div class="modal-item">
+            <span class="text-modal text-error"> Мы не можем отправить вас в прошлое. </span>
+            <span class="text-modal text-successfully"> На эти даты есть свободные номера. Пока есть. </span>
+            <div class="modal-item modal-people">
               <div class="old-child">
                 <label class="modal-name all-name old-name">Взрослые:</label>
                 <div class="wrapper">
@@ -282,12 +275,14 @@
                       viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M0 0v1h13V0H0Z" />
                     </svg>
+                    <span class="visually-hidden">Уменьшить.</span>
                   </button>
                   <button class="sign" type="button" style="right: 0; width: 50px;">
                     <svg class="sign-svg plus-svg" aria-hidden="true" focusable="false" width="13" height="13"
                       viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
                     </svg>
+                    <span class="visually-hidden">Увеличить.</span>
                   </button>
                 </div>
               </div>
@@ -312,12 +307,15 @@
                     <svg class="sign-svg minus-svg" aria-hidden="true" focusable="false" width="13" height="1"
                       viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M0 0v1h13V0H0Z" />
+                    </svg>
+                    <span class="visually-hidden">Уменьшить.</span>
                   </button>
                   <button class="sign" type="button" style="right: 0; width: 50px;">
                     <svg class="sign-svg plus-svg" aria-hidden="true" focusable="false" width="13" height="13"
                       viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" />
                     </svg>
+                    <span class="visually-hidden">Увеличить.</span>
                   </button>
                 </div>
               </div>
