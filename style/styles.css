@@ -408,7 +408,7 @@ body {
 
 .search-discription {
     margin: 0 auto;
-    margin-bottom: 56px;
+    margin-bottom: 55px;
     font-family: "PT Sans", sans-serif;
     font-size: 22px;
     line-height: 26px;
@@ -419,7 +419,7 @@ body {
     display: block;
     width: 575px;
     margin: 0 auto;
-    margin-bottom: 93px;
+    margin-bottom: 92px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 10px;
@@ -556,7 +556,7 @@ body {
 .footer-cocial {
     display: flex;
     margin: 0 auto;
-    padding: 25px 50px 25px 60px;
+    padding: 23px 50px 25px 61px;
     align-items: center;
     text-align: center;
 }
@@ -844,7 +844,9 @@ body {
   opacity: 0.3;
   cursor: pointer;
 }
-
+.text-modal-block{
+    min-height: 29px;
+}
 .text-error {
     display: block;
     margin-left: auto;
@@ -857,7 +859,9 @@ body {
     margin-left: auto;
     width: 420px;
 }
-
+.text-none{
+    display: none;
+}
 .text-modal {
     display: none;
     font-family: "PT Sans", sans-serif;
